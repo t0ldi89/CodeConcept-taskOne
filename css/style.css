@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .header{
+     width: 100vw;
+     height: 20vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 4em 3em;
+     }
+
+     .header__cart-word{
+     color:#808080;
+     font-size: 2em;
+     
+    }
+    .header__proceed-bnt{
+        height: 2.5em;
+        background-color: #000000;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+    .header__proceed-bnt:hover{
+        transform: scale(1.1);
+    }
+
+
